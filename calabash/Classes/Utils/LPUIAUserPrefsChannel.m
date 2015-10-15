@@ -104,7 +104,7 @@ const static NSInteger LPUIAChannelMaximumLoopCount = 1200;
         NSLog(@"Server current index: %lu",(unsigned long) _scriptIndex);
         NSDictionary *prefs = [self userPreferences];
         NSLog(@"Current request: %@", [prefs objectForKey:LPUIAChannelUIAPrefsRequestKey]);
-        NSLog(@"Current response: %@", [prefs objectForKey:LPUIAChannelUIAPrefsRequestKey]);
+        NSLog(@"Current response: %@", [prefs objectForKey:LPUIAChannelUIAPrefsResponseKey]);
         result = nil;
         break;
       }
